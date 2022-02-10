@@ -21,7 +21,6 @@ s = float(resp.elapsed.microseconds/1000000)
 print(resp.elapsed.microseconds)
 print(s)
 resp.close()
-ip = "202.55.5.209:8090"
 for i in ip_list:
     print(i, 'testing')
     pro = {
